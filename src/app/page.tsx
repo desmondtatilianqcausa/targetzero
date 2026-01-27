@@ -301,7 +301,7 @@ export default function ImpairedDrivingPage() {
             />
           </div>
 
-          <div className="relative z-10 container flex gap-10 max-w-5xl mx-auto bg-white/50 rounded-3xl overflow-hidden">
+          <div className="relative z-10 container flex gap-10 max-w-5xl mx-auto bg-white/50 rounded-r-4xl overflow-hidden">
             <div className="relative w-1/4 items-start">
               <Image
                 src="/Web%20Assets/Facts.png"

@@ -86,72 +86,78 @@ export default function ImpairedDrivingPage() {
 
           {/* Right Column: Stats with Icons */}
           <div className="space-y-8 lg:pl-8">
-            <div className="flex items-center gap-4 mx-auto max-w-7xl w-full">
-              <div className="shrink-0">
-                <Image
-                  src="/Web%20Assets/Icons-01.png"
-                  alt="48 minutes icon"
-                  width={64}
-                  height={64}
-                  className="h-16 w-16 object-contain"
-                />
-              </div>
-              <div>
-                <p className="text-xl leading-tight">
-                  <span className="text-xl font-extrabold text-[#1c3e6f]">
-                    EVERY 48
-                  </span>{" "}
-                  <span className="font-medium text-[#1c3e6f]">
-                    minutes, there is another <br className="hidden sm:block" />
-                    alcohol-impaired-driving fatality.
-                  </span>
-                </p>
-              </div>
-            </div>
-
-            <div className="flex items-center gap-4">
-              <div className="shrink-0">
-                <Image
-                  src="/Web%20Assets/Icons-02.png"
-                  alt="13 seconds icon"
-                  width={64}
-                  height={64}
-                  className="h-16 w-16 object-contain"
-                />
-              </div>
-              <div>
-                <p className="text-xl leading-tight">
-                  <span className="text-xl font-extrabold text-[#1c3e6f]">
-                    EVERY 13
-                  </span>{" "}
-                  <span className="font-medium text-[#1c3e6f]">
-                    seconds another <br className="hidden sm:block" />
-                    person is injured.
-                  </span>
-                </p>
+            <div className="mx-auto w-full max-w-130">
+              <div className="flex items-center gap-4">
+                <div className="shrink-0">
+                  <Image
+                    src="/Web%20Assets/Icons-01.png"
+                    alt="48 minutes icon"
+                    width={64}
+                    height={64}
+                    className="h-16 w-16 object-contain"
+                  />
+                </div>
+                <div className="w-full">
+                  <p className="text-xl leading-tight">
+                    <span className="text-xl font-extrabold text-[#1c3e6f]">
+                      EVERY 48
+                    </span>{" "}
+                    <span className="font-medium text-[#1c3e6f] w-full">
+                      minutes, there is another
+                      alcohol-impaired-driving fatality.
+                    </span>
+                  </p>
+                </div>
               </div>
             </div>
 
-            <div className="flex items-center gap-4">
-              <div className="shrink-0">
-                <Image
-                  src="/Web%20Assets/Icons-03.png"
-                  alt="7 seconds icon"
-                  width={64}
-                  height={64}
-                  className="h-16 w-16 object-contain"
-                />
+            <div className="mx-auto w-full max-w-130">
+              <div className="flex items-center gap-4">
+                <div className="shrink-0">
+                  <Image
+                    src="/Web%20Assets/Icons-02.png"
+                    alt="13 seconds icon"
+                    width={64}
+                    height={64}
+                    className="h-16 w-16 object-contain"
+                  />
+                </div>
+                <div className="w-full">
+                  <p className="text-xl leading-tight">
+                    <span className="text-xl font-extrabold text-[#1c3e6f]">
+                      EVERY 13
+                    </span>{" "}
+                    <span className="font-medium text-[#1c3e6f] w-full">
+                      seconds another
+                      person is injured.
+                    </span>
+                  </p>
+                </div>
               </div>
-              <div>
-                <p className="text-xl leading-tight">
-                  <span className="text-xl font-extrabold text-[#1c3e6f]">
-                    EVERY 7
-                  </span>{" "}
-                  <span className="font-medium text-[#1c3e6f]">
-                    seconds there is <br className="hidden sm:block" />
-                    another property damage crash.
-                  </span>
-                </p>
+            </div>
+
+            <div className="mx-auto w-full max-w-130">
+              <div className="flex items-center gap-4">
+                <div className="shrink-0">
+                  <Image
+                    src="/Web%20Assets/Icons-03.png"
+                    alt="7 seconds icon"
+                    width={64}
+                    height={64}
+                    className="h-16 w-16 object-contain"
+                  />
+                </div>
+                <div>
+                  <p className="text-xl leading-tight">
+                    <span className="text-xl font-extrabold text-[#1c3e6f]">
+                      EVERY 7
+                    </span>{" "}
+                    <span className="font-medium text-[#1c3e6f] w-full">
+                      seconds there is
+                      another property damage crash.
+                    </span>
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -482,9 +488,9 @@ export default function ImpairedDrivingPage() {
         {/* Awareness & Prevention Section */}
         <FadeIn
           as="section"
-          className="container max-w-7xl mx-auto mb-16 grid gap-12 px-10 md:grid-cols-5 lg:gap-20"
+          className="container max-w-7xl mx-auto mb-16 grid gap-12 px-10 md:grid-cols-2 lg:gap-20"
         >
-          <div className="col-span-2 space-y-6">
+          <div className="space-y-6">
             <h3 className="text-3xl leading-tight font-bold text-[#1c3e6f]">
               Awareness Matters
             </h3>
@@ -507,7 +513,7 @@ export default function ImpairedDrivingPage() {
             </p>
           </div>
 
-          <div className="col-span-3 space-y-8">
+          <div className="space-y-8">
             <div className="space-y-4">
               <h3 className="text-3xl leading-tight font-bold text-[#1c3e6f]">
                 Substances that cause impairment can include:

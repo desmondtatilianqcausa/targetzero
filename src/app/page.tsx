@@ -93,12 +93,12 @@ export default function ImpairedDrivingPage() {
                     alt="48 minutes icon"
                     width={64}
                     height={64}
-                    className="h-16 w-16 object-contain"
+                    className="h-18 w-18 object-contain"
                   />
                 </div>
                 <div className="w-full">
                   <p className="text-xl leading-tight">
-                    <span className="text-xl font-extrabold text-red-500">
+                    <span className="text-2xl font-extrabold text-red-500">
                       EVERY 48
                     </span>{" "}
                     <span className="w-full font-medium text-[#1c3e6f]">
@@ -118,12 +118,12 @@ export default function ImpairedDrivingPage() {
                     alt="13 seconds icon"
                     width={64}
                     height={64}
-                    className="h-16 w-16 object-contain"
+                    className="h-18 w-18 object-contain"
                   />
                 </div>
                 <div className="w-full">
                   <p className="text-xl leading-tight">
-                    <span className="text-xl font-extrabold text-red-500">
+                    <span className="text-2xl font-extrabold text-red-500">
                       EVERY 13
                     </span>{" "}
                     <span className="w-full font-medium text-[#1c3e6f]">
@@ -142,12 +142,12 @@ export default function ImpairedDrivingPage() {
                     alt="7 seconds icon"
                     width={64}
                     height={64}
-                    className="h-16 w-16 object-contain"
+                    className="h-18 w-18 object-contain"
                   />
                 </div>
                 <div>
                   <p className="text-xl leading-tight">
-                    <span className="text-xl font-extrabold text-red-500">
+                    <span className="text-2xl font-extrabold text-red-500">
                       EVERY 7
                     </span>{" "}
                     <span className="w-full font-medium text-[#1c3e6f]">
@@ -166,12 +166,12 @@ export default function ImpairedDrivingPage() {
                     alt="7 seconds icon"
                     width={64}
                     height={64}
-                    className="h-16 w-16 object-contain"
+                    className="h-18 w-18 object-contain"
                   />
                 </div>
                 <div>
                   <p className="text-xl leading-tight">
-                    <span className="text-xl font-extrabold text-red-500">
+                    <span className="text-2xl font-extrabold text-red-500">
                       CANNABIS IS THE 2ND
                     </span>{" "}
                     <span className="w-full font-medium text-[#1c3e6f]">

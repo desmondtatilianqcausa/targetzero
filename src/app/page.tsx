@@ -19,7 +19,7 @@ export default function ImpairedDrivingPage() {
         {/* Gradient Overlay for Text Readability - Adjusted to be darker on left */}
         {/* <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/40 to-transparent z-0"></div> */}
 
-        <div className="relative z-10 container mx-auto max-w-7xl px-6 pt-32 md:pt-40 md:pb-48">
+        <div className="relative z-10 container mx-auto max-w-7xl px-6 pt-42 md:pt-40 md:pb-48">
           <div className="flex max-w-2xl flex-col gap-6">
             {/* FDOT Logo */}
             <FadeIn className="absolute top-8 left-8 z-10" direction="none">
@@ -57,7 +57,7 @@ export default function ImpairedDrivingPage() {
         </div>
       </div>
 
-      <div className="w-full space-y-20">
+      <div className="w-full space-y-20 -mt-26 md:pt-0">
         {/* Intro Section: Text + Stats */}
         <FadeIn
           as="section"
@@ -293,7 +293,7 @@ export default function ImpairedDrivingPage() {
           {/* Background Image (Road) */}
           <div className="absolute inset-0 z-0 bg-slate-500">
             <Image
-              src="/photo-1519817914152-22d216bb9170 (1).avif"
+              src="/road.jpg"
               alt="Road Background"
               fill
               sizes="100vw"
@@ -301,7 +301,7 @@ export default function ImpairedDrivingPage() {
             />
           </div>
 
-          <div className="relative z-10 container flex gap-10 max-w-5xl mx-auto bg-white/50 rounded-r-4xl overflow-hidden">
+          <div className="relative z-10 container flex ga-2 md:gap-10 max-w-5xl mx-auto bg-white/50 rounded-r-4xl overflow-hidden">
             <div className="relative w-1/4 items-start">
               <Image
                 src="/Web%20Assets/Facts.png"
@@ -311,7 +311,7 @@ export default function ImpairedDrivingPage() {
                 className="object-contain object-top-left"
               />
             </div>
-            <div className="z-10 w-3/4 p-10">
+            <div className="z-10 w-3/4 p-6 md:p-10">
               <div className="flex grow items-center">
                 <ul className="space-y-5 text-xl leading-snug font-medium text-black md:text-2xl">
                   <li className="flex items-start gap-4">
@@ -474,7 +474,7 @@ export default function ImpairedDrivingPage() {
           </div>
 
           {/* Am I Okay To Drive Section */}
-          <div className="mx-auto mb-12 w-full max-w-[95%] rounded-full bg-[#1c3e6f] px-6 py-16 text-center text-white shadow-xl">
+          <div className="mx-auto mb-12 w-full max-w-[95%] rounded-4xl md:rounded-full bg-[#1c3e6f] px-6 py-16 text-center text-white shadow-xl">
             <h2 className="mb-6 text-2xl leading-none font-black tracking-tight uppercase italic md:text-5xl">
               “AM I OKAY TO DRIVE?”
             </h2>
@@ -657,6 +657,7 @@ export default function ImpairedDrivingPage() {
                 className="h-16 w-auto object-contain md:h-20"
               />
             </div>
+            <div>Copyright © 2026. All rights reserved.</div>
           </div>
         </FadeIn>
       </div>

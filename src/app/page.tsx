@@ -478,10 +478,10 @@ export default function ImpairedDrivingPage() {
             <h2 className="mb-6 text-2xl leading-none font-black tracking-tight uppercase italic md:text-5xl">
               “AM I OKAY TO DRIVE?”
             </h2>
-            <p className="mb-2 text-xl font-light tracking-wide uppercase md:text-2xl">
+            <p className="mb-2 text-xl font-light tracking-wide uppercase md:text-2xl scale-y-150">
               IF YOU HAVE CONSUMED ANY ALCOHOL OR DRUGS, THE ANSWER IS NO.
             </p>
-            <p className="text-xl leading-tight font-light tracking-wide uppercase md:text-2xl">
+            <p className="text-xl leading-tight font-light tracking-wide uppercase md:text-2xl scale-y-150">
               REMEMBER, A PERSON’S JUDGEMENT IS THE FIRST THING AFFECTED BY
               IMPAIRMENT.
             </p>

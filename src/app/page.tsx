@@ -346,9 +346,9 @@ export default function ImpairedDrivingPage() {
           <div className="container mx-auto grid gap-12 px-6 md:grid-cols-2 lg:gap-24">
             <div className="space-y-6">
               <div className="flex h-22 flex-col items-center justify-center">
-                <h3 className="text-center text-3xl leading-tight font-bold text-[#1e3a8a]">
+                <h2 className="text-center text-3xl leading-tight font-black tracking-tight text-[#1e3a8a]">
                   Engineering for Safety
-                </h3>
+                </h2>
               </div>
               <p className="text-center text-xl leading-relaxed text-slate-700">
                 Engineering and safe road design plays a significant part in

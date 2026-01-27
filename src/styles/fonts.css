@@ -3,9 +3,8 @@
    - Rift-Light.otf (300)
    - Rift-Regular.otf (400)
    - Rift-Medium.otf (500)
-   - Rift-Semibold.otf (600)
-   - Rift-Bold.otf (700)
-   - Rift-Extrabold.otf (800)
+   - Rift-SemiBold.otf (600)
+   - Rift-ExtraBold.otf (800)
 */
 
 @font-face {
@@ -34,7 +33,7 @@
 
 @font-face {
   font-family: "Rift";
-  src: url("/fonts/Rift-Semibold.otf") format("opentype");
+  src: url("/fonts/Rift-SemiBold.otf") format("opentype");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -42,15 +41,7 @@
 
 @font-face {
   font-family: "Rift";
-  src: url("/fonts/Rift-Bold.otf") format("opentype");
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Rift";
-  src: url("/fonts/Rift-Extrabold.otf") format("opentype");
+  src: url("/fonts/Rift-ExtraBold.otf") format("opentype");
   font-weight: 800;
   font-style: normal;
   font-display: swap;

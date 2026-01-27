@@ -39,7 +39,7 @@ export default function ImpairedDrivingPage() {
               <div className="absolute inset-0 -left-[100vw] w-[calc(100vw+100%)] rounded-r-full bg-linear-to-r from-red-700/50 to-red-500/50"></div>
 
               <h1 className="relative text-shadow-md z-10 py-3 pr-8 pl-0 text-4xl leading-tight font-black tracking-tight md:text-5xl">
-                HOW TO USE THIS PORTAL
+                Impaired Driving in Florida
               </h1>
             </FadeIn>
 
@@ -47,7 +47,7 @@ export default function ImpairedDrivingPage() {
               {/* black gradient background */}
               <div className="absolute -inset-5 -left-[100vw] w-[calc(100vw+90%)] bg-linear-to-r from-black/30 to-black/30"></div>
 
-              <p className="max-w-xl text-xl leading-relaxed font-bold text-white drop-shadow-xl text-shadow-lg">
+              <p className="max-w-xl font-sans text-xl leading-relaxed font-bold text-white drop-shadow-xl text-shadow-lg">
                 Impaired driving remains one of the most serious and preventable
                 safety issues on Florida’s roadways. Driving under the influence
                 of alcoholic beverages, controlled substances, prescriptions, or

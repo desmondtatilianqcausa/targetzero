@@ -28,7 +28,7 @@ export default function ImpairedDrivingPage() {
                 alt="FDOT Logo"
                 width={400}
                 height={112}
-                className="h-28 w-auto"
+                className="h-28 w-auto -ml-3"
               />
             </FadeIn>
             {/* Title Block with Red Background Effect */}

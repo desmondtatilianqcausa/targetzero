@@ -1,6 +1,36 @@
 @import "tailwindcss";
+@import "./fonts.css";
 
+/* stylelint-disable at-rule-no-unknown */
 @theme {
-  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif,
+  --font-nunito-sans: var(--font-nunito-sans-face), ui-sans-serif, system-ui, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-rift: Rift, ui-sans-serif, system-ui, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-sans: var(--font-nunito-sans-face), ui-sans-serif, system-ui, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+/* stylelint-enable at-rule-no-unknown */
+
+@layer base {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-rift);
+  }
+
+  strong,
+  b {
+    font-family: var(--font-rift);
+  }
+
+  .font-semibold,
+  .font-bold,
+  .font-extrabold,
+  .font-black {
+    font-family: var(--font-rift);
+  }
 }

@@ -57,7 +57,7 @@ export default function ImpairedDrivingPage() {
         </div>
       </div>
 
-      <div className="w-full space-y-20 -mt-26 md:pt-0">
+      <div className="w-full space-y-20 -mt-26 md:mt-0">
         {/* Intro Section: Text + Stats */}
         <FadeIn
           as="section"

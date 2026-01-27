@@ -434,14 +434,14 @@ export default function ImpairedDrivingPage() {
 
           {/* Red Call to Action */}
           <div className="container mx-auto mb-8 px-6 text-center">
-            <h3 className="scale-y-110 transform text-2xl font-black tracking-tighter text-[#d32f2f] uppercase md:text-4xl">
+            <h3 className="scale-y-150 transform text-2xl font-black text-[#d32f2f] uppercase md:text-4xl">
               IF YOU SEE A DANGEROUS DRIVER, CALL *FHP (*347) OR 911 IN AN
               EMERGENCY.
             </h3>
           </div>
 
           {/* Data Driven Education */}
-          <div className="container mx-auto mb-16 flex max-w-3xl flex-col items-center gap-10 px-6 md:flex-row md:items-start">
+          <div className="container mx-auto mb-16 flex max-w-5xl flex-col items-center gap-10 px-6 md:flex-row md:items-start">
             <div className="mx-auto shrink-0 md:mx-0">
               <Image
                 src="/Web%20Assets/Drive_Sober_300CMYK.jpg"

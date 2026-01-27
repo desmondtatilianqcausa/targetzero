@@ -19,10 +19,8 @@ export default function ImpairedDrivingPage() {
         {/* Gradient Overlay for Text Readability - Adjusted to be darker on left */}
         {/* <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/40 to-transparent z-0"></div> */}
 
-
-
-        <div className="relative z-10 container mx-auto px-6 pt-32 md:pt-40 md:pb-48">
-          <div className="max-w-2xl flex flex-col gap-6">
+        <div className="relative z-10 container mx-auto max-w-7xl px-6 pt-32 md:pt-40 md:pb-48">
+          <div className="flex max-w-2xl flex-col gap-6">
             {/* FDOT Logo */}
             <FadeIn className="absolute top-8 left-8 z-10" direction="none">
               <Image
@@ -38,7 +36,7 @@ export default function ImpairedDrivingPage() {
               {/* Red pill background */}
               <div className="absolute inset-0 -left-[100vw] w-[calc(100vw+100%)] rounded-r-full bg-linear-to-r from-red-700/50 to-red-500/50"></div>
 
-              <h1 className="relative text-shadow-md z-10 py-3 pr-8 pl-0 text-4xl leading-tight font-black tracking-tight md:text-5xl">
+              <h1 className="relative z-10 py-3 pr-8 pl-0 text-4xl leading-tight font-black tracking-tight text-shadow-md md:text-5xl">
                 Impaired Driving in Florida
               </h1>
             </FadeIn>
@@ -50,14 +48,11 @@ export default function ImpairedDrivingPage() {
               <p className="max-w-xl font-sans text-xl leading-relaxed font-bold text-white drop-shadow-xl text-shadow-lg">
                 Impaired driving remains one of the most serious and preventable
                 safety issues on Florida’s roadways. Driving under the influence
-                of alcoholic beverages, controlled substances, prescriptions, or
-                over-the-counter medications can cause impairment and inhibit your
-                ability to drive safely.
+                of alcoholic beverages, controlled substances, marijuana, or
+                over-the-counter medications can cause impairment and inhibit
+                your ability to drive safely
               </p>
             </FadeIn>
-
-
-
           </div>
         </div>
       </div>
@@ -66,15 +61,19 @@ export default function ImpairedDrivingPage() {
         {/* Intro Section: Text + Stats */}
         <FadeIn
           as="section"
-          className="container px-10 mt-20 max-w-7xl mx-auto grid items-start gap-12 lg:grid-cols-2"
+          className="container mx-auto mt-20 grid max-w-7xl items-start gap-12 px-10 lg:grid-cols-2"
         >
           {/* Left Column: Text */}
           <div className="space-y-6">
             <p className="text-xl leading-relaxed text-slate-700">
               Impairment is not limited to alcohol. Drugs, including illegal
-              substances, prescription medications, and some over-the-counter
-              products, can also affect judgment, coordination, reaction time,
-              and decision making.
+              substances, like marijuana, prescription medications, and some
+              over-the-counter products, can also aect judgment, coordination,
+              reaction time, and decision making. When drivers are impaired, the
+              risk of a serious or fatal crash increases for everyone on the
+              road. Every safe choice behind the wheel helps protect lives and
+              supports Florida’s goal of zero transportation-related fatalities
+              and serious injuries.
             </p>
             <p className="text-xl leading-relaxed font-semibold text-slate-800">
               When drivers are impaired, the risk of a serious or fatal crash
@@ -99,12 +98,12 @@ export default function ImpairedDrivingPage() {
                 </div>
                 <div className="w-full">
                   <p className="text-xl leading-tight">
-                    <span className="text-xl font-extrabold text-[#1c3e6f]">
+                    <span className="text-xl font-extrabold text-red-500">
                       EVERY 48
                     </span>{" "}
-                    <span className="font-medium text-[#1c3e6f] w-full">
-                      minutes, there is another
-                      alcohol-impaired-driving fatality.
+                    <span className="w-full font-medium text-[#1c3e6f]">
+                      minutes, there is another alcohol-impaired-driving
+                      fatality.
                     </span>
                   </p>
                 </div>
@@ -124,12 +123,11 @@ export default function ImpairedDrivingPage() {
                 </div>
                 <div className="w-full">
                   <p className="text-xl leading-tight">
-                    <span className="text-xl font-extrabold text-[#1c3e6f]">
+                    <span className="text-xl font-extrabold text-red-500">
                       EVERY 13
                     </span>{" "}
-                    <span className="font-medium text-[#1c3e6f] w-full">
-                      seconds another
-                      person is injured.
+                    <span className="w-full font-medium text-[#1c3e6f]">
+                      seconds another person is injured.
                     </span>
                   </p>
                 </div>
@@ -149,12 +147,35 @@ export default function ImpairedDrivingPage() {
                 </div>
                 <div>
                   <p className="text-xl leading-tight">
-                    <span className="text-xl font-extrabold text-[#1c3e6f]">
+                    <span className="text-xl font-extrabold text-red-500">
                       EVERY 7
                     </span>{" "}
-                    <span className="font-medium text-[#1c3e6f] w-full">
-                      seconds there is
-                      another property damage crash.
+                    <span className="w-full font-medium text-[#1c3e6f]">
+                      seconds there is another property damage crash.
+                    </span>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="mx-auto w-full max-w-130">
+              <div className="flex items-center gap-4">
+                <div className="shrink-0">
+                  <Image
+                    src="/Web%20Assets/Icons-04.png"
+                    alt="7 seconds icon"
+                    width={64}
+                    height={64}
+                    className="h-16 w-16 object-contain"
+                  />
+                </div>
+                <div>
+                  <p className="text-xl leading-tight">
+                    <span className="text-xl font-extrabold text-red-500">
+                      CANNABIS IS THE 2ND
+                    </span>{" "}
+                    <span className="w-full font-medium text-[#1c3e6f]">
+                      most common drug linked to substance-impaired driving
                     </span>
                   </p>
                 </div>
@@ -163,7 +184,10 @@ export default function ImpairedDrivingPage() {
           </div>
         </FadeIn>
         {/* Divider Line */}
-        <FadeIn className="container max-w-7xl mx-auto w-full px-6" delayMs={75}>
+        <FadeIn
+          className="container mx-auto w-full max-w-7xl px-6"
+          delayMs={75}
+        >
           <Image
             src="/Web%20Assets/Divider%20Line.png"
             alt="Divider"
@@ -175,116 +199,119 @@ export default function ImpairedDrivingPage() {
         </FadeIn>
 
         {/* Impaired Driving Images Section */}
-        <FadeIn as="section" className="container max-w-7xl mx-auto space-y-8 px-10">
-          <div className="text-center">
-            <h2 className="text-5xl font-black tracking-tight text-[#1c3e6f] uppercase italic">
-              Impaired Driving
-            </h2>
-          </div>
-
-          <div className="grid gap-8 md:grid-cols-2">
-            <div className="flex flex-col items-center">
-              <Link
-                href="https://www.youtube.com/watch?v=PblDqyll7uU"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Watch: Don’t Drive High — Reaction Time (YouTube)"
-                className="group relative mb-6 block w-full overflow-hidden rounded-3xl shadow-md transition-transform duration-300 hover:-translate-y-1 hover:shadow-xl focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-[#1c3e6f]/40"
-              >
-                <div className="relative aspect-4/3 w-full overflow-hidden">
-                  <Image
-                    src="/Web%20Assets/Don't%20Drive%20High%20Image.png"
-                    alt="Don’t Drive High"
-                    fill
-                    sizes="(min-width: 768px) 50vw, 100vw"
-                    className="absolute inset-0 h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.03]"
-                  />
-                  <div className="absolute inset-0 bg-linear-to-t from-black/55 via-black/10 to-transparent opacity-90 transition-opacity duration-300 group-hover:opacity-100" />
-                  <div className="absolute bottom-5 left-5 right-5 flex items-center justify-between gap-4">
-                    <div className="text-left">
-                      <p className="text-sm font-semibold tracking-wide text-white/90 uppercase">
-                        Watch video
-                      </p>
-                      <p className="text-xl font-black text-white">
-                        Don’t Drive High
-                      </p>
-                    </div>
-                    <span className="inline-flex items-center rounded-full bg-white/90 px-4 py-2 text-sm font-bold text-[#1c3e6f] shadow-sm transition-colors duration-300 group-hover:bg-white">
-                      Play
-                    </span>
-                  </div>
-                </div>
-              </Link>
-              <h3 className="text-center text-xl font-black text-[#1c3e6f] uppercase md:text-2xl">
-                Don’t Drive High:{" "}
-                <span className="line-through decoration-red-600 decoration-4">
-                  Reaction Time
-                </span>
-              </h3>
+        <FadeIn as="section" className="bg-gray-200">
+          <div className="container mx-auto -mb-20 max-w-7xl space-y-8 bg-gray-200 px-10 py-12">
+            <div className="text-center">
+              <h2 className="text-5xl font-black tracking-tight text-[#1c3e6f] uppercase italic">
+                Impaired Driving
+              </h2>
             </div>
 
-            <div className="flex flex-col items-center">
-              <Link
-                href="https://www.youtube.com/watch?v=3hYXDvJh_CM"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Watch: Drive Sober or Get Pulled Over (YouTube)"
-                className="group relative mb-6 block w-full overflow-hidden rounded-3xl shadow-md transition-transform duration-300 hover:-translate-y-1 hover:shadow-xl focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-[#1c3e6f]/40"
-              >
-                <div className="relative aspect-4/3 w-full overflow-hidden">
-                  <Image
-                    src="/Web%20Assets/Impaired%20Driver%20Image.png"
-                    alt="Impaired Driver"
-                    fill
-                    sizes="(min-width: 768px) 50vw, 100vw"
-                    className="absolute inset-0 h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.03]"
-                  />
-                  <div className="absolute inset-0 bg-linear-to-t from-black/55 via-black/10 to-transparent opacity-90 transition-opacity duration-300 group-hover:opacity-100" />
-                  <div className="absolute bottom-5 left-5 right-5 flex items-center justify-between gap-4">
-                    <div className="text-left">
-                      <p className="text-sm font-semibold tracking-wide text-white/90 uppercase">
-                        Watch video
-                      </p>
-                      <p className="text-xl font-black text-white">
-                        Drive Sober
-                      </p>
+            <div className="grid gap-8 md:grid-cols-2">
+              <div className="flex flex-col items-center">
+                <Link
+                  href="https://www.youtube.com/watch?v=PblDqyll7uU"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Watch: Don’t Drive High — Reaction Time (YouTube)"
+                  className="group relative mb-6 block w-full overflow-hidden rounded-3xl shadow-md transition-transform duration-300 hover:-translate-y-1 hover:shadow-xl focus-visible:ring-4 focus-visible:ring-[#1c3e6f]/40 focus-visible:outline-none"
+                >
+                  <div className="relative aspect-4/3 w-full overflow-hidden">
+                    <Image
+                      src="/Web%20Assets/Don't%20Drive%20High%20Image.png"
+                      alt="Don’t Drive High"
+                      fill
+                      sizes="(min-width: 768px) 50vw, 100vw"
+                      className="absolute inset-0 h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.03]"
+                    />
+                    <div className="absolute inset-0 bg-linear-to-t from-black/55 via-black/10 to-transparent opacity-90 transition-opacity duration-300 group-hover:opacity-100" />
+                    <div className="absolute right-5 bottom-5 left-5 flex items-center justify-between gap-4">
+                      <div className="text-left">
+                        <p className="text-sm font-semibold tracking-wide text-white/90 uppercase">
+                          Watch video
+                        </p>
+                        <p className="text-xl font-black text-white">
+                          Don’t Drive High
+                        </p>
+                      </div>
+                      <span className="inline-flex items-center rounded-full bg-white/90 px-4 py-2 text-sm font-bold text-[#1c3e6f] shadow-sm transition-colors duration-300 group-hover:bg-white">
+                        Play
+                      </span>
                     </div>
-                    <span className="inline-flex items-center rounded-full bg-white/90 px-4 py-2 text-sm font-bold text-[#1c3e6f] shadow-sm transition-colors duration-300 group-hover:bg-white">
-                      Play
-                    </span>
                   </div>
-                </div>
-              </Link>
-              <h3 className="text-center text-xl font-black text-[#1c3e6f] uppercase md:text-2xl">
-                Drive Sober or Get Pulled Over
-              </h3>
+                </Link>
+                <h3 className="text-center text-xl font-black text-[#1c3e6f] uppercase md:text-2xl">
+                  Don’t Drive High
+                </h3>
+              </div>
+
+              <div className="flex flex-col items-center">
+                <Link
+                  href="https://www.youtube.com/watch?v=3hYXDvJh_CM"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Watch: Drive Sober or Get Pulled Over (YouTube)"
+                  className="group relative mb-6 block w-full overflow-hidden rounded-3xl shadow-md transition-transform duration-300 hover:-translate-y-1 hover:shadow-xl focus-visible:ring-4 focus-visible:ring-[#1c3e6f]/40 focus-visible:outline-none"
+                >
+                  <div className="relative aspect-4/3 w-full overflow-hidden">
+                    <Image
+                      src="/Web%20Assets/Impaired%20Driver%20Image.png"
+                      alt="Impaired Driver"
+                      fill
+                      sizes="(min-width: 768px) 50vw, 100vw"
+                      className="absolute inset-0 h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.03]"
+                    />
+                    <div className="absolute inset-0 bg-linear-to-t from-black/55 via-black/10 to-transparent opacity-90 transition-opacity duration-300 group-hover:opacity-100" />
+                    <div className="absolute right-5 bottom-5 left-5 flex items-center justify-between gap-4">
+                      <div className="text-left">
+                        <p className="text-sm font-semibold tracking-wide text-white/90 uppercase">
+                          Watch video
+                        </p>
+                        <p className="text-xl font-black text-white">
+                          Drive Sober
+                        </p>
+                      </div>
+                      <span className="inline-flex items-center rounded-full bg-white/90 px-4 py-2 text-sm font-bold text-[#1c3e6f] shadow-sm transition-colors duration-300 group-hover:bg-white">
+                        Play
+                      </span>
+                    </div>
+                  </div>
+                </Link>
+                <h3 className="text-center text-xl font-black text-[#1c3e6f] uppercase md:text-2xl">
+                  Drive Sober or Get Pulled Over
+                </h3>
+              </div>
             </div>
           </div>
         </FadeIn>
 
         {/* FACTS Section */}
-        <FadeIn as="section" className="relative my-12 w-full overflow-hidden p-16 md:py-34">
+        <FadeIn
+          as="section"
+          className="relative my-12 w-full overflow-hidden p-16 md:py-34"
+        >
           {/* Background Image (Road) */}
           <div className="absolute inset-0 z-0 bg-slate-500">
-            {/* <Image
-              src="/Web%20Assets/FACTS%20Image.png"
+            <Image
+              src="/photo-1519817914152-22d216bb9170 (1).avif"
               alt="Road Background"
-              className="w-full h-full object-cover"
-            /> */}
+              fill
+              sizes="100vw"
+              className="h-full w-full object-cover"
+            />
           </div>
 
-          <div className="relative z-10 container mx-auto flex gap-10 p-22">
-            <div className="absolute inset-0 z-0">
+          <div className="relative z-10 container flex gap-10 max-w-5xl mx-auto bg-white/50 rounded-3xl overflow-hidden">
+            <div className="relative w-1/4 items-start">
               <Image
                 src="/Web%20Assets/FACTS.png"
-                alt="Road Background"
+                alt="FACTS"
                 fill
-                sizes="100vw"
-                className="h-full w-full object-cover"
+                sizes="24vw"
+                className="object-contain object-top-left"
               />
             </div>
-            <div className="w-1/4"></div>
-            <div className="z-10">
+            <div className="z-10 w-3/4 p-10">
               <div className="flex grow items-center">
                 <ul className="space-y-5 text-xl leading-snug font-medium text-black md:text-2xl">
                   <li className="flex items-start gap-4">
@@ -325,8 +352,8 @@ export default function ImpairedDrivingPage() {
                   <li className="flex items-start gap-4">
                     <span className="mt-2 h-2 w-2 shrink-0 rounded-full bg-[#1c3e6f] text-black"></span>
                     <span>
-                      Your driver&apos;s license could be suspended for up to 2 years
-                      if convicted of a DUI.
+                      Your driver&apos;s license could be suspended for up to 2
+                      years if convicted of a DUI.
                     </span>
                   </li>
                 </ul>
@@ -336,7 +363,10 @@ export default function ImpairedDrivingPage() {
         </FadeIn>
 
         {/* Engineering & Enforcement Section */}
-        <FadeIn as="section" className="container max-w-7xl mx-auto px-10 space-y-16 py-12">
+        <FadeIn
+          as="section"
+          className="container mx-auto max-w-7xl space-y-16 px-10 py-12"
+        >
           {/* Divider Line */}
           <div className="w-full">
             <Image
@@ -364,8 +394,8 @@ export default function ImpairedDrivingPage() {
                 human error. Clearly posted speed limits, improved signage,
                 enhanced lighting, and roadway features such as reduced speed
                 zones all help drivers make safer decisions. These tactics are
-                important in areas with changing traffic patterns, varied
-                weather conditions, or limited visibility.
+                important in areas with changing trac patterns, varied weather
+                conditions, or limited visibility
               </p>
               <p className="text-center text-xl leading-relaxed text-slate-700">
                 Additional engineering solutions, such as wrong way driving
@@ -387,7 +417,7 @@ export default function ImpairedDrivingPage() {
                 Enforcement is a key component of impaired driving prevention.
                 Law enforcement agencies across Florida use high visibility
                 enforcement strategies to deter impaired driving and remove
-                dangerous drivers from the road. These efforts include increased
+                dangerous drivers from the road. These eorts include increased
                 patrols, sobriety checks where permitted and coordinated
                 enforcement waves.
               </p>
@@ -488,13 +518,13 @@ export default function ImpairedDrivingPage() {
         {/* Awareness & Prevention Section */}
         <FadeIn
           as="section"
-          className="container max-w-7xl mx-auto mb-16 grid gap-12 px-10 md:grid-cols-2 lg:gap-20"
+          className="container mx-auto mb-16 grid max-w-7xl gap-12 px-10 md:grid-cols-2 lg:gap-20"
         >
           <div className="space-y-6">
             <h3 className="text-3xl leading-tight font-bold text-[#1c3e6f]">
               Awareness Matters
             </h3>
-            <p className="text-xl leading-relaxed text-slate-700 ml-3">
+            <p className="ml-3 text-xl leading-relaxed text-slate-700">
               The data tells a powerful story. Florida’s Strategic Highway
               Safety Plan shows that one in four traffic fatalities involves a
               driver impaired by alcohol or drugs. National Highway Traffic
@@ -502,13 +532,13 @@ export default function ImpairedDrivingPage() {
               this issue, with December 2022, ranking among the highest months
               for drunk-driving deaths in the past 15 years.
             </p>
-            <p className="text-xl leading-relaxed text-slate-700 ml-3">
+            <p className="ml-3 text-xl leading-relaxed text-slate-700">
               Drug-impaired driving is equally dangerous and illegal in all 50
               states. A recent national study found that approximately one in
               four seriously injured drivers had active THC, the primary
               ingredient in marijuana, in their system.
             </p>
-            <p className="text-xl leading-relaxed font-medium text-slate-700 ml-3">
+            <p className="ml-3 text-xl leading-relaxed font-medium text-slate-700">
               These crashes are not accidents. They are preventable.
             </p>
           </div>
@@ -518,7 +548,7 @@ export default function ImpairedDrivingPage() {
               <h3 className="text-3xl leading-tight font-bold text-[#1c3e6f]">
                 Substances that cause impairment can include:
               </h3>
-              <ul className="list-disc space-y-2 pl-5 text-xl text-slate-700 ml-3">
+              <ul className="ml-3 list-disc space-y-2 pl-5 text-xl text-slate-700">
                 <li>Alcohol</li>
                 <li>Prescription drugs</li>
                 <li>Over-the-counter medications</li>
@@ -530,7 +560,7 @@ export default function ImpairedDrivingPage() {
               <h3 className="text-3xl leading-tight font-bold text-[#1c3e6f]">
                 Plan ahead and choose safe alternatives:
               </h3>
-              <ul className="list-disc space-y-2 pl-5 text-xl leading-relaxed text-slate-700 ml-3">
+              <ul className="ml-3 list-disc space-y-2 pl-5 text-xl leading-relaxed text-slate-700">
                 <li>Plan for a sober ride before heading out.</li>
                 <li>Only drive if you are sober.</li>
                 <li>
@@ -555,7 +585,10 @@ export default function ImpairedDrivingPage() {
         </FadeIn>
 
         {/* Footer Area */}
-        <FadeIn as="footer" className="mt-12 w-full bg-[#1c3e6f] py-12 text-white">
+        <FadeIn
+          as="footer"
+          className="mt-12 w-full bg-[#1c3e6f] py-12 text-white"
+        >
           <div className="container mx-auto space-y-8 px-6 text-center">
             {/* Title */}
             <h3 className="text-4xl font-medium tracking-tight text-blue-100">
@@ -608,6 +641,13 @@ export default function ImpairedDrivingPage() {
 
             {/* FDOT Logo */}
             <div className="flex justify-center pt-8">
+              <Image
+                src="/Web%20Assets/FDOT%20Logo_KO.png"
+                alt="FDOT Logo"
+                width={400}
+                height={112}
+                className="h-16 w-auto object-contain md:h-20"
+              />
               <Image
                 src="/Web%20Assets/FDOT%20Logo_KO.png"
                 alt="FDOT Logo"

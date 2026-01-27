@@ -463,6 +463,7 @@ export default function ImpairedDrivingPage() {
                 For additional information, visit{" "}
                 <Link
                   href="https://DriveSoberFL.com"
+                  target="_blank"
                   className="text-slate-800 underline decoration-1 underline-offset-2 hover:text-[#1e3a8a]"
                 >
                   DriveSoberFL.com
@@ -573,7 +574,7 @@ export default function ImpairedDrivingPage() {
                   program throughout Florida! Tow to Go provides a free and
                   confidential ride for impaired drivers and their vehicles who
                   do not have a safe alternative, within 10 miles. To arrange a
-                  Tow to Go, call (855) 2-TOW-2-GO (855-286-9246).
+                  Tow to Go, call <a href="tel:8552869246" className="underline decoration-1 underline-offset-4 hover:text-blue-200">(855) 2-TOW-2-GO (855-286-9246)</a>.
                 </li>
                 <li>
                   If you see a suspected impaired driver, call *FHP (*347). For

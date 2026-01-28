@@ -216,7 +216,7 @@ export default function ImpairedDrivingPage() {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Watch: Don’t Drive High — Reaction Time (YouTube)"
-                  className="group relative mb-6 block w-full overflow-hidden rounded-3xl shadow-md transition-transform duration-300 hover:-translate-y-1 hover:shadow-xl focus-visible:ring-4 focus-visible:ring-[#1c3e6f]/40 focus-visible:outline-none"
+                  className="group relative mb-6 block w-full overflow-hidden rounded-[40px] shadow-md transition-transform duration-300 hover:-translate-y-1 hover:shadow-xl focus-visible:ring-4 focus-visible:ring-[#1c3e6f]/40 focus-visible:outline-none"
                 >
                   <div className="relative aspect-4/3 w-full overflow-hidden">
                     <Image
@@ -263,7 +263,7 @@ export default function ImpairedDrivingPage() {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Watch: Drive Sober or Get Pulled Over (YouTube)"
-                  className="group relative mb-6 block w-full overflow-hidden rounded-3xl shadow-md transition-transform duration-300 hover:-translate-y-1 hover:shadow-xl focus-visible:ring-4 focus-visible:ring-[#1c3e6f]/40 focus-visible:outline-none"
+                  className="group relative mb-6 block w-full overflow-hidden rounded-[40px] shadow-md transition-transform duration-300 hover:-translate-y-1 hover:shadow-xl focus-visible:ring-4 focus-visible:ring-[#1c3e6f]/40 focus-visible:outline-none"
                 >
                   <div className="relative aspect-4/3 w-full overflow-hidden">
                     <Image

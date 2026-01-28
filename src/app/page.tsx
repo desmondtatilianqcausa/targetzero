@@ -20,7 +20,7 @@ export default function ImpairedDrivingPage() {
         {/* <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/40 to-transparent z-0"></div> */}
 
         <div className="relative z-10 container mx-auto max-w-7xl px-6 pt-42 md:pt-40 md:pb-48">
-          <div className="flex max-w-2xl flex-col gap-6">
+          <div className="flex max-w-2xl flex-col gap-2">
             {/* FDOT Logo */}
             <FadeIn className="absolute top-8 left-8 z-10" direction="none">
               <Link href="https://www.fdot.gov" target="_blank">
@@ -45,7 +45,7 @@ export default function ImpairedDrivingPage() {
 
             <FadeIn className="relative mb-6" direction="none" delayMs={175}>
               {/* black gradient background */}
-              <div className="absolute -inset-5 -left-[100vw] w-[calc(100vw+90%)] bg-linear-to-r from-black/30 to-black/30"></div>
+              <div className="absolute -inset-5 -left-[100vw] w-[calc(100vw+90%)] bg-linear-to-r from-[#1c3e6f]/30 to-[#1c3e6f]/30"></div>
 
               <p className="max-w-xl font-sans text-xl leading-relaxed font-bold text-white drop-shadow-xl text-shadow-lg">
                 Impaired driving remains one of the most serious and preventable

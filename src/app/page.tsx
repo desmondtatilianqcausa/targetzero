@@ -240,7 +240,7 @@ export default function ImpairedDrivingPage() {
                         </svg>
                       </div>
                     </div>
-                    <div className="absolute right-5 bottom-5 left-5">
+                    {/* <div className="absolute right-5 bottom-5 left-5">
                       <div className="text-left">
                         <p className="text-sm font-semibold tracking-wide text-white/90 uppercase">
                           Watch video
@@ -249,7 +249,7 @@ export default function ImpairedDrivingPage() {
                           Don’t Drive High
                         </p>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                 </Link>
                 <h3 className="text-center text-xl font-black text-[#1c3e6f] uppercase md:text-2xl">
@@ -287,7 +287,7 @@ export default function ImpairedDrivingPage() {
                         </svg>
                       </div>
                     </div>
-                    <div className="absolute right-5 bottom-5 left-5">
+                    {/* <div className="absolute right-5 bottom-5 left-5">
                       <div className="text-left">
                         <p className="text-sm font-semibold tracking-wide text-white/90 uppercase">
                           Watch video
@@ -296,7 +296,7 @@ export default function ImpairedDrivingPage() {
                           Drive Sober
                         </p>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                 </Link>
                 <h3 className="text-center text-xl font-black text-[#1c3e6f] uppercase md:text-2xl">

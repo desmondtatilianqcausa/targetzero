@@ -38,7 +38,7 @@ export default function ImpairedDrivingPage() {
               {/* Red pill background */}
               <div className="absolute inset-0 -left-[100vw] w-[calc(100vw+100%)] rounded-r-full bg-linear-to-r from-red-700/50 to-red-500/50"></div>
 
-              <h1 className="relative z-10 py-3 pr-8 pl-0 text-4xl leading-tight font-black tracking-tight text-shadow-md md:text-5xl">
+              <h1 className="relative z-10 py-3 pr-8 pl-0 text-4xl leading-tight font-black tracking-tight text-shadow-md md:text-6xl">
                 Impaired Driving in Florida
               </h1>
             </FadeIn>

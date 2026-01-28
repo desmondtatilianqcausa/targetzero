@@ -443,7 +443,7 @@ export default function ImpairedDrivingPage() {
           </div>
 
           {/* Data Driven Education */}
-          <div className="container mx-auto mb-16 mt-16 flex max-w-5xl flex-col items-center gap-10 px-6 md:flex-row md:items-start">
+          <div className="container mx-auto mb-16 mt-16 flex max-w-5xl flex-col items-center gap-10 px-6 md:flex-row">
             <div className="mx-auto shrink-0 md:mx-0">
               <Image
                 src="/Web%20Assets/Drive_Sober_300CMYK.jpg"
@@ -477,7 +477,7 @@ export default function ImpairedDrivingPage() {
 
           {/* Am I Okay To Drive Section */}
           <div className="mx-auto mb-12 w-full max-w-[95%] rounded-4xl md:rounded-full bg-[#1c3e6f] px-6 py-16 text-center text-white shadow-xl">
-            <h2 className="mb-6 text-2xl leading-none font-black tracking-tight uppercase italic md:text-5xl">
+            <h2 className="mb-6 text-2xl leading-none font-black tracking-tight uppercase md:text-5xl">
               “AM I OKAY TO DRIVE?”
             </h2>
             <p className="mb-2 text-xl font-light tracking-wide uppercase md:text-2xl scale-y-150">

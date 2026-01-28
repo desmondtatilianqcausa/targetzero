@@ -23,13 +23,15 @@ export default function ImpairedDrivingPage() {
           <div className="flex max-w-2xl flex-col gap-6">
             {/* FDOT Logo */}
             <FadeIn className="absolute top-8 left-8 z-10" direction="none">
-              <Image
-                src="/Web%20Assets/FDOT%20Logo_K.png"
-                alt="FDOT Logo"
-                width={400}
-                height={112}
-                className="h-28 w-auto -ml-3"
-              />
+              <Link href="https://www.fdot.gov" target="_blank">
+                <Image
+                  src="/Web%20Assets/FDOT%20Logo_K.png"
+                  alt="FDOT Logo"
+                  width={400}
+                  height={112}
+                  className="h-28 w-auto -ml-3"
+                />
+              </Link>
             </FadeIn>
             {/* Title Block with Red Background Effect */}
             <FadeIn className="relative mb-6" direction="none" delayMs={75}>
@@ -93,7 +95,7 @@ export default function ImpairedDrivingPage() {
                     alt="48 minutes icon"
                     width={64}
                     height={64}
-                    className="h-18 w-18 object-contain"
+                    className="h-20 w-20 object-contain"
                   />
                 </div>
                 <div className="w-full">
@@ -118,7 +120,7 @@ export default function ImpairedDrivingPage() {
                     alt="13 seconds icon"
                     width={64}
                     height={64}
-                    className="h-18 w-18 object-contain"
+                    className="h-20 w-20 object-contain"
                   />
                 </div>
                 <div className="w-full">
@@ -142,7 +144,7 @@ export default function ImpairedDrivingPage() {
                     alt="7 seconds icon"
                     width={64}
                     height={64}
-                    className="h-18 w-18 object-contain"
+                    className="h-20 w-20 object-contain"
                   />
                 </div>
                 <div>
@@ -166,7 +168,7 @@ export default function ImpairedDrivingPage() {
                     alt="7 seconds icon"
                     width={64}
                     height={64}
-                    className="h-18 w-18 object-contain"
+                    className="h-20 w-20 object-contain"
                   />
                 </div>
                 <div>
@@ -202,7 +204,7 @@ export default function ImpairedDrivingPage() {
         <FadeIn as="section" className="bg-gray-200">
           <div className="container mx-auto -mb-20 max-w-7xl space-y-8 bg-gray-200 px-10 py-12">
             <div className="text-center">
-              <h2 className="text-5xl font-black tracking-tight text-[#1c3e6f] uppercase italic">
+              <h2 className="text-5xl font-black tracking-tight text-[#1c3e6f] uppercase">
                 Impaired Driving
               </h2>
             </div>
@@ -379,10 +381,10 @@ export default function ImpairedDrivingPage() {
             />
           </div>
 
-          <div className="container mx-auto grid gap-12 px-6 md:grid-cols-2 lg:gap-24">
+          <div className="grid gap-12 px-3 md:grid-cols-2 lg:gap-24">
             <div className="space-y-6">
-              <div className="flex h-22 flex-col items-center justify-center">
-                <h2 className="text-center text-3xl leading-tight font-black tracking-tight text-[#1e3a8a]">
+              <div className="flex h-18 flex-col items-center justify-center">
+                <h2 className="text-center text-4xl leading-tight font-black tracking-tight text-[#1e3a8a]">
                   Engineering for Safety
                 </h2>
               </div>
@@ -407,26 +409,26 @@ export default function ImpairedDrivingPage() {
             </div>
 
             <div className="space-y-6">
-              <div className="flex h-22 flex-col items-center justify-center">
-                <h3 className="h-20 text-center text-3xl leading-tight font-bold text-[#1e3a8a]">
+              <div className="flex flex-col items-center justify-center">
+                <h3 className="text-center text-4xl leading-tight font-bold text-[#1e3a8a]">
                   Enforcement and High
                   <br className="hidden md:block" /> Visibility Efforts
                 </h3>
               </div>
-              <p className="text-center text-xl leading-relaxed text-slate-700">
+              <p className="text-center text-xl leading-relaxed text-slate-700 pl-5">
                 Enforcement is a key component of impaired driving prevention.
                 Law enforcement agencies across Florida use high visibility
                 enforcement strategies to deter impaired driving and remove
-                dangerous drivers from the road. These eorts include increased
+                dangerous drivers from the road. These efforts include increased
                 patrols, sobriety checks where permitted and coordinated
                 enforcement waves.
               </p>
-              <p className="text-center text-xl leading-relaxed text-slate-700">
+              <p className="text-center text-xl leading-relaxed text-slate-700 pl-5">
                 High visibility enforcement works alongside education and
-                engineering to reinforce safe behavior. Drivers are reminded
+                engineering to reinforce safe behavior.<br /> Drivers are reminded
                 that impaired driving has real consequences and that Florida’s
                 roads are actively monitored to protect everyone who uses them.
-                Reporting suspected impaired or aggressive driving also plays an
+                Reporting suspected impaired or aggressive driving also plays<br /> an
                 important role.
               </p>
             </div>
@@ -434,14 +436,14 @@ export default function ImpairedDrivingPage() {
 
           {/* Red Call to Action */}
           <div className="container mx-auto mb-8 px-6 text-center">
-            <h3 className="scale-y-150 transform text-2xl font-black text-[#d32f2f] uppercase md:text-4xl">
+            <h3 className="scale-y-150 transform text-2xl tracking-wide scale-x-120 font-black text-[#d32f2f] uppercase md:text-4xl">
               IF YOU SEE A DANGEROUS DRIVER, CALL *FHP (*347) OR 911 IN AN
               EMERGENCY.
             </h3>
           </div>
 
           {/* Data Driven Education */}
-          <div className="container mx-auto mb-16 flex max-w-5xl flex-col items-center gap-10 px-6 md:flex-row md:items-start">
+          <div className="container mx-auto mb-16 mt-16 flex max-w-5xl flex-col items-center gap-10 px-6 md:flex-row md:items-start">
             <div className="mx-auto shrink-0 md:mx-0">
               <Image
                 src="/Web%20Assets/Drive_Sober_300CMYK.jpg"
@@ -613,7 +615,7 @@ export default function ImpairedDrivingPage() {
               >
                 Safety Office Impaired Driving Resources
               </Link>
-              <span className="px-1 text-blue-300">|</span>
+
               <Link
                 href="https://flimpaireddriving.com/index.html"
                 target="_blank"
@@ -641,21 +643,25 @@ export default function ImpairedDrivingPage() {
             </div>
 
             {/* FDOT Logo */}
-            <div className="flex justify-center pt-8">
-              <Image
-                src="/Web%20Assets/FDOT%20Logo_KO.png"
-                alt="FDOT Logo"
-                width={400}
-                height={112}
-                className="h-16 w-auto object-contain md:h-20"
-              />
-              <Image
-                src="/Web%20Assets/FDOT%20Logo_KO.png"
-                alt="FDOT Logo"
-                width={400}
-                height={112}
-                className="h-16 w-auto object-contain md:h-20"
-              />
+            <div className="flex justify-center pt-8 gap-5">
+              <Link href="https://www.fdot.gov" target="_blank">
+                <Image
+                  src="/Web%20Assets/FDOT%20Logo_KO.png"
+                  alt="FDOT Logo"
+                  width={400}
+                  height={112}
+                  className="h-16 w-auto object-contain md:h-20"
+                />
+              </Link>
+              <Link href="https://www.fdot.gov/agencyresources/target-zero" target="_blank">
+                <Image
+                  src="/tz_logo.jpg"
+                  alt="FDOT Logo"
+                  width={400}
+                  height={112}
+                  className="h-16 w-auto object-contain md:h-20"
+                />
+              </Link>
             </div>
             <div>Copyright © 2026. All rights reserved.</div>
           </div>

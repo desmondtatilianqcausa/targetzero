@@ -71,7 +71,7 @@ export default function ImpairedDrivingPage() {
               Impairment is not limited to alcohol. Drugs,
               including illegal substances, like marijuana,
               prescription medications, and some
-              over-the-counter products, can also aect
+              over-the-counter products, can also affect
               judgment, coordination, reaction time, and
               decision making. When drivers are impaired,
               the risk of a serious or fatal crash increases for
@@ -344,7 +344,7 @@ export default function ImpairedDrivingPage() {
                     <span className="mt-2 h-2 w-2 shrink-0 rounded-full bg-[#1c3e6f] text-black"></span>
                     <span>
                       Alcohol, as well as, drugs, including illegal substances,
-                      weed, prescription medications, and over-the-counter
+                      marijuana, prescription medications, and over-the-counter
                       products can cause impairment.
                     </span>
                   </li>
@@ -673,7 +673,7 @@ export default function ImpairedDrivingPage() {
               </Link>
               <Link href="https://www.fdot.gov/agencyresources/target-zero" target="_blank">
                 <Image
-                  src="/tz_logo.jpg"
+                  src="/Web Assets/tz_logo.png"
                   alt="FDOT Logo"
                   width={400}
                   height={112}

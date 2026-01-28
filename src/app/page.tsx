@@ -227,7 +227,20 @@ export default function ImpairedDrivingPage() {
                       className="absolute inset-0 h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.03]"
                     />
                     <div className="absolute inset-0 bg-linear-to-t from-black/55 via-black/10 to-transparent opacity-90 transition-opacity duration-300 group-hover:opacity-100" />
-                    <div className="absolute right-5 bottom-5 left-5 flex items-center justify-between gap-4">
+                    <div
+                      className="pointer-events-none absolute inset-0 grid place-items-center"
+                      aria-hidden="true"
+                    >
+                      <div className="grid h-16 w-16 place-items-center rounded-full bg-white/15 ring-1 ring-white/40 backdrop-blur-sm transition-transform duration-300 group-hover:scale-105">
+                        <svg
+                          viewBox="0 0 24 24"
+                          className="h-10 w-10 translate-x-px fill-white"
+                        >
+                          <path d="M8.5 5.8v12.4c0 .8.9 1.3 1.6.9l9.3-6.2c.6-.4.6-1.4 0-1.8l-9.3-6.2c-.7-.5-1.6.1-1.6.9z" />
+                        </svg>
+                      </div>
+                    </div>
+                    <div className="absolute right-5 bottom-5 left-5">
                       <div className="text-left">
                         <p className="text-sm font-semibold tracking-wide text-white/90 uppercase">
                           Watch video
@@ -236,9 +249,6 @@ export default function ImpairedDrivingPage() {
                           Don’t Drive High
                         </p>
                       </div>
-                      <span className="inline-flex items-center rounded-full bg-white/90 px-4 py-2 text-sm font-bold text-[#1c3e6f] shadow-sm transition-colors duration-300 group-hover:bg-white">
-                        Play
-                      </span>
                     </div>
                   </div>
                 </Link>
@@ -264,7 +274,20 @@ export default function ImpairedDrivingPage() {
                       className="absolute inset-0 h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.03]"
                     />
                     <div className="absolute inset-0 bg-linear-to-t from-black/55 via-black/10 to-transparent opacity-90 transition-opacity duration-300 group-hover:opacity-100" />
-                    <div className="absolute right-5 bottom-5 left-5 flex items-center justify-between gap-4">
+                    <div
+                      className="pointer-events-none absolute inset-0 grid place-items-center"
+                      aria-hidden="true"
+                    >
+                      <div className="grid h-16 w-16 place-items-center rounded-full bg-white/15 ring-1 ring-white/40 backdrop-blur-sm transition-transform duration-300 group-hover:scale-105">
+                        <svg
+                          viewBox="0 0 24 24"
+                          className="h-10 w-10 translate-x-px fill-white"
+                        >
+                          <path d="M8.5 5.8v12.4c0 .8.9 1.3 1.6.9l9.3-6.2c.6-.4.6-1.4 0-1.8l-9.3-6.2c-.7-.5-1.6.1-1.6.9z" />
+                        </svg>
+                      </div>
+                    </div>
+                    <div className="absolute right-5 bottom-5 left-5">
                       <div className="text-left">
                         <p className="text-sm font-semibold tracking-wide text-white/90 uppercase">
                           Watch video
@@ -273,9 +296,6 @@ export default function ImpairedDrivingPage() {
                           Drive Sober
                         </p>
                       </div>
-                      <span className="inline-flex items-center rounded-full bg-white/90 px-4 py-2 text-sm font-bold text-[#1c3e6f] shadow-sm transition-colors duration-300 group-hover:bg-white">
-                        Play
-                      </span>
                     </div>
                   </div>
                 </Link>
@@ -303,8 +323,8 @@ export default function ImpairedDrivingPage() {
             />
           </div>
 
-          <div className="relative z-10 container flex ga-2 md:gap-10 max-w-5xl mx-auto bg-white/70 rounded-r-4xl overflow-hidden">
-            <div className="relative w-1/4 items-start">
+          <div className="relative z-10 container flex gap-2 md:gap-5 max-w-5xl mx-auto bg-white/70 rounded-r-4xl overflow-hidden">
+            <div className="relative w-1/5 items-start">
               <Image
                 src="/Web%20Assets/Facts.png"
                 alt="FACTS"
@@ -313,7 +333,7 @@ export default function ImpairedDrivingPage() {
                 className="object-contain object-top-left"
               />
             </div>
-            <div className="z-10 w-3/4 p-6 md:p-10">
+            <div className="z-10 w-4/5 p-6 md:p-10">
               <div className="flex grow items-center">
                 <ul className="space-y-5 text-xl leading-snug font-medium text-black md:text-2xl">
                   <li className="flex items-start gap-4">

@@ -3,6 +3,8 @@ import "~/styles/globals.css";
 import { type Metadata } from "next";
 import { Geist } from "next/font/google";
 import { Nunito_Sans } from "next/font/google";
+import { Montserrat } from "next/font/google";
+import { Oswald } from "next/font/google";
 
 export const metadata: Metadata = {
   title: {
@@ -25,11 +27,24 @@ const nunitoSans = Nunito_Sans({
   variable: "--font-nunito-sans-face",
 });
 
+const montserrat = Montserrat({
+  subsets: ["latin"],
+  variable: "--font-montserrat-face",
+});
+
+const oswald = Oswald({
+  subsets: ["latin"],
+  variable: "--font-oswald-face",
+});
+
 export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en" className={`${geist.variable} ${nunitoSans.variable}`}>
+    <html
+      lang="en"
+      className={`${geist.variable} ${nunitoSans.variable} ${montserrat.variable} ${oswald.variable}`}
+    >
       <body className="font-sans">{children}</body>
     </html>
   );

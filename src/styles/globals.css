@@ -5,32 +5,41 @@
 @theme {
   --font-nunito-sans: var(--font-nunito-sans-face), ui-sans-serif, system-ui, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-montserrat: var(--font-montserrat-face), ui-sans-serif, system-ui, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  /* Alias (common misspelling) so you can use `font-montseratt` */
+  --font-montseratt: var(--font-montserrat-face), ui-sans-serif, system-ui, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-oswald: var(--font-oswald-face), ui-sans-serif, system-ui, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-rift: Rift, ui-sans-serif, system-ui, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-sans: var(--font-nunito-sans-face), ui-sans-serif, system-ui, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+
 /* stylelint-enable at-rule-no-unknown */
 
 @layer base {
+
   h1,
   h2,
   h3,
   h4,
   h5,
   h6 {
-    font-family: var(--font-rift);
+    font-family: var(--font-oswald);
   }
 
   strong,
   b {
-    font-family: var(--font-rift);
+    font-family: var(--font-oswald);
   }
 
   .font-semibold,
   .font-bold,
   .font-extrabold,
   .font-black {
-    font-family: var(--font-rift);
+    font-family: var(--font-oswald);
   }
 }

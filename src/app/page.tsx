@@ -204,7 +204,7 @@ export default function ImpairedDrivingPage() {
         <FadeIn as="section" className="bg-gray-200">
           <div className="container mx-auto -mb-20 max-w-7xl space-y-8 bg-gray-200 px-10 py-12">
             <div className="text-center">
-              <h2 className="text-5xl font-black tracking-tight text-[#1c3e6f] uppercase">
+              <h2 className="text-5xl font-black tracking-tight text-[#1c3e6f]">
                 Impaired Driving
               </h2>
             </div>
@@ -436,9 +436,8 @@ export default function ImpairedDrivingPage() {
 
           {/* Red Call to Action */}
           <div className="container mx-auto mb-8 px-6 text-center">
-            <h3 className="scale-y-150 transform text-2xl tracking-wide scale-x-120 font-black text-[#d32f2f] uppercase md:text-4xl">
-              IF YOU SEE A DANGEROUS DRIVER, CALL *FHP (*347) OR 911 IN AN
-              EMERGENCY.
+            <h3 className="scale-y-150 transform text-2xl tracking-wide scale-x-120 font-black text-[#d32f2f] uppercase md:text-3xl">
+              IF YOU SEE A DANGEROUS DRIVER, CALL *FHP (*347) OR 911 IN ANEMERGENCY.
             </h3>
           </div>
 
@@ -594,12 +593,12 @@ export default function ImpairedDrivingPage() {
         >
           <div className="container mx-auto space-y-8 px-6 text-center">
             {/* Title */}
-            <h3 className="text-4xl font-medium tracking-tight text-blue-100 font-nunito-sans">
+            <h3 className="text-4xl font-medium tracking-tight text-blue-100 font-oswald">
               Additional Resources
             </h3>
 
             {/* Links */}
-            <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-center gap-x-2 gap-y-2 text-xl leading-relaxed font-medium md:text-xl">
+            <div className="mx-auto font-oswald tracking-wide flex max-w-7xl flex-wrap items-center justify-center gap-x-2 gap-y-2 text-xl leading-relaxed font-medium md:text-2xl">
               <Link
                 href="https://www.flhsmv.gov/safety-center/driving-safety/impaired-driving/"
                 target="_blank"
@@ -615,6 +614,14 @@ export default function ImpairedDrivingPage() {
               >
                 Safety Office Impaired Driving Resources
               </Link>
+              <span className="px-1 text-blue-300">|</span>
+              <Link
+                href="https://flimpaireddriving.com/index.html"
+                target="_blank"
+                className="underline decoration-1 underline-offset-4 hover:text-blue-200"
+              >
+                Florida Impaired Driving Coalition
+              </Link>
 
               <Link
                 href="https://flimpaireddriving.com/index.html"
@@ -624,14 +631,8 @@ export default function ImpairedDrivingPage() {
                 National Highway Traffic Safety Administration: Drive Sober or
                 Get Pulled Over
               </Link>
-              <span className="px-1 text-blue-300">|</span>
-              <Link
-                href="https://flimpaireddriving.com/index.html"
-                target="_blank"
-                className="underline decoration-1 underline-offset-4 hover:text-blue-200"
-              >
-                Florida Impaired Driving Coalition
-              </Link>
+
+
               <span className="px-1 text-blue-300">|</span>
               <Link
                 href="https://DriveSoberFL.com"

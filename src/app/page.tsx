@@ -501,7 +501,7 @@ export default function ImpairedDrivingPage() {
               and friends to be safe and accountable on the road by driving
               sober.
             </p>
-            <p className="pt-4 text-2xl font-bold">
+            <p className="pt-4">
               Let’s get everyone home safely!
             </p>
           </div>
@@ -571,7 +571,7 @@ export default function ImpairedDrivingPage() {
                   impaired. Help them secure a safe, sober ride home.
                 </li>
                 <li>
-                  <span className="font-semibold underline">Tow to Go</span>:
+                  <span className="font-semibold underline font-nunito-sans">Tow to Go</span>:
                   During the holiday season, AAA offers their free Tow to Go
                   program throughout Florida! Tow to Go provides a free and
                   confidential ride for impaired drivers and their vehicles who
@@ -594,7 +594,7 @@ export default function ImpairedDrivingPage() {
         >
           <div className="container mx-auto space-y-8 px-6 text-center">
             {/* Title */}
-            <h3 className="text-4xl font-medium tracking-tight text-blue-100">
+            <h3 className="text-4xl font-medium tracking-tight text-blue-100 font-nunito-sans">
               Additional Resources
             </h3>
 

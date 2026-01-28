@@ -63,30 +63,27 @@ export default function ImpairedDrivingPage() {
         {/* Intro Section: Text + Stats */}
         <FadeIn
           as="section"
-          className="container mx-auto mt-20 grid max-w-7xl items-start gap-12 px-10 lg:grid-cols-2"
+          className="container mx-auto mt-20 grid max-w-6xl items-start gap-12 px-10 lg:grid-cols-2"
         >
           {/* Left Column: Text */}
           <div className="space-y-6">
             <p className="text-xl leading-relaxed text-slate-700">
-              Impairment is not limited to alcohol. Drugs, including illegal
-              substances, like marijuana, prescription medications, and some
-              over-the-counter products, can also aect judgment, coordination,
-              reaction time, and decision making. When drivers are impaired, the
-              risk of a serious or fatal crash increases for everyone on the
-              road. Every safe choice behind the wheel helps protect lives and
-              supports Florida’s goal of zero transportation-related fatalities
-              and serious injuries.
-            </p>
-            <p className="text-xl leading-relaxed font-semibold text-slate-800">
-              When drivers are impaired, the risk of a serious or fatal crash
-              increases for everyone on the road. Every safe choice behind the
-              wheel helps protect lives and supports Florida’s goal of zero
-              transportation-related fatalities and serious injuries.
+              Impairment is not limited to alcohol. Drugs,
+              including illegal substances, like marijuana,
+              prescription medications, and some
+              over-the-counter products, can also aect
+              judgment, coordination, reaction time, and
+              decision making. When drivers are impaired,
+              the risk of a serious or fatal crash increases for
+              everyone on the road. Every safe choice behind
+              the wheel helps protect lives and supports
+              Florida’s goal of zero transportation-related
+              fatalities and serious injuries.
             </p>
           </div>
 
           {/* Right Column: Stats with Icons */}
-          <div className="space-y-8 lg:pl-8">
+          <div className="space-y-4 lg:pl-8">
             <div className="mx-auto w-full max-w-130">
               <div className="flex items-center gap-4">
                 <div className="shrink-0">
@@ -174,10 +171,10 @@ export default function ImpairedDrivingPage() {
                 <div>
                   <p className="text-xl leading-tight">
                     <span className="text-2xl font-extrabold text-red-500">
-                      CANNABIS IS THE 2ND
+                      MARIJUANA IS THE 2ND
                     </span>{" "}
                     <span className="w-full font-medium text-[#1c3e6f]">
-                      most common drug linked to substance-impaired driving
+                      most common drug linked to substance-impaired driving.
                     </span>
                   </p>
                 </div>
@@ -324,13 +321,13 @@ export default function ImpairedDrivingPage() {
           </div>
 
           <div className="relative z-10 container flex gap-2 md:gap-5 max-w-5xl mx-auto bg-white/70 rounded-r-4xl overflow-hidden">
-            <div className="relative w-1/5 items-start">
+            <div className="relative w-1/5 items-start overflow-hidden">
               <Image
                 src="/Web%20Assets/Facts.png"
                 alt="FACTS"
                 fill
                 sizes="24vw"
-                className="object-contain object-top-left"
+                className="object-contain object-top-left scale-105"
               />
             </div>
             <div className="z-10 w-4/5 p-6 md:p-10">
@@ -347,8 +344,8 @@ export default function ImpairedDrivingPage() {
                     <span className="mt-2 h-2 w-2 shrink-0 rounded-full bg-[#1c3e6f] text-black"></span>
                     <span>
                       Alcohol, as well as, drugs, including illegal substances,
-                      prescription medications, and over-the-counter products
-                      can cause impairment.
+                      weed, prescription medications, and over-the-counter
+                      products can cause impairment.
                     </span>
                   </li>
                   <li className="flex items-start gap-4">
@@ -435,7 +432,7 @@ export default function ImpairedDrivingPage() {
                   <br className="hidden md:block" /> Visibility Efforts
                 </h3>
               </div>
-              <p className="text-center text-xl leading-relaxed text-slate-700 pl-5">
+              <p className="text-center text-xl leading-relaxed text-slate-700 pl-5 md:pl-0">
                 Enforcement is a key component of impaired driving prevention.
                 Law enforcement agencies across Florida use high visibility
                 enforcement strategies to deter impaired driving and remove
@@ -443,7 +440,7 @@ export default function ImpairedDrivingPage() {
                 patrols, sobriety checks where permitted and coordinated
                 enforcement waves.
               </p>
-              <p className="text-center text-xl leading-relaxed text-slate-700 pl-5">
+              <p className="text-center text-xl leading-relaxed text-slate-700 pl-5 md:pl-0">
                 High visibility enforcement works alongside education and
                 engineering to reinforce safe behavior.<br /> Drivers are reminded
                 that impaired driving has real consequences and that Florida’s
@@ -574,7 +571,7 @@ export default function ImpairedDrivingPage() {
                 <li>Alcohol</li>
                 <li>Prescription drugs</li>
                 <li>Over-the-counter medications</li>
-                <li>Illegal drugs</li>
+                <li>Illegal drugs, including marijuana</li>
               </ul>
             </div>
 
@@ -590,7 +587,7 @@ export default function ImpairedDrivingPage() {
                   impaired. Help them secure a safe, sober ride home.
                 </li>
                 <li>
-                  <span className="font-semibold underline font-nunito-sans">Tow to Go</span>:
+                  <Link href="https://www.acg.aaa.com/drivers-safety/tow-to-go.html" target="_blank" className="font-semibold underline font-nunito-sans">Tow to Go</Link>:
                   During the holiday season, AAA offers their free Tow to Go
                   program throughout Florida! Tow to Go provides a free and
                   confidential ride for impaired drivers and their vehicles who
@@ -626,7 +623,7 @@ export default function ImpairedDrivingPage() {
               >
                 FLHSMV Impaired Driving Campaign
               </Link>
-              <span className="px-1 text-blue-300">|</span>
+              <span className="px-1 text-white">|</span>
               <Link
                 href="https://www.fdot.gov/Safety/programs/impaired-driving.shtm"
                 target="_blank"
@@ -634,7 +631,7 @@ export default function ImpairedDrivingPage() {
               >
                 Safety Office Impaired Driving Resources
               </Link>
-              <span className="px-1 text-blue-300">|</span>
+              <span className="px-1 text-white">|</span>
               <Link
                 href="https://flimpaireddriving.com/index.html"
                 target="_blank"
@@ -653,7 +650,7 @@ export default function ImpairedDrivingPage() {
               </Link>
 
 
-              <span className="px-1 text-blue-300">|</span>
+              <span className="px-1 text-white">|</span>
               <Link
                 href="https://DriveSoberFL.com"
                 target="_blank"

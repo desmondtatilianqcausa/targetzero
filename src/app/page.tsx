@@ -23,7 +23,7 @@ export default function ImpairedDrivingPage() {
           <div className="flex max-w-2xl flex-col gap-2">
             {/* FDOT Logo */}
             <FadeIn className="absolute top-8 left-8 z-10" direction="none">
-              <Link href="https://www.fdot.gov" target="_blank">
+              {/* <Link href="https://www.fdot.gov" target="_blank">
                 <Image
                   src="/Web%20Assets/FDOT%20Logo_K.png"
                   alt="FDOT Logo"
@@ -31,7 +31,27 @@ export default function ImpairedDrivingPage() {
                   height={112}
                   className="h-28 w-auto -ml-3"
                 />
-              </Link>
+              </Link> */}
+              <div className="flex items-center pt-8 gap-5">
+                <Link href="https://www.fdot.gov" target="_blank">
+                  <Image
+                    src="/Web%20Assets/FDOT%20Logo_K.png"
+                    alt="FDOT Logo"
+                    width={400}
+                    height={112}
+                    className="h-16 w-auto object-contain md:h-20"
+                  />
+                </Link>
+                <Link href="https://www.fdot.gov/agencyresources/target-zero" target="_blank">
+                  <Image
+                    src="/tz_logo_black.png"
+                    alt="FDOT Logo"
+                    width={400}
+                    height={112}
+                    className="h-16 w-auto object-contain md:h-16"
+                  />
+                </Link>
+              </div>
             </FadeIn>
             {/* Title Block with Red Background Effect */}
             <FadeIn className="relative mb-6" direction="none" delayMs={75}>

@@ -8,7 +8,7 @@ import { Oswald } from "next/font/google";
 
 export const metadata: Metadata = {
   title: {
-    default: "Target Zero Portal",
+    default: "Impaired Driving in Florida",
     template: "%s | Target Zero",
   },
   description:

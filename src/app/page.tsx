@@ -70,7 +70,7 @@ export default function ImpairedDrivingPage() {
               <p className="max-w-xl font-sans text-xl leading-relaxed font-bold text-white drop-shadow-xl text-shadow-lg">
                 Impaired driving remains one of the most serious and preventable
                 safety issues on Florida’s roadways. Driving under the influence
-                of alcoholic beverages, controlled substances, marijuana, or
+                of alcoholic beverages, controlled substances, marijuana, or some
                 over-the-counter medications can cause impairment and inhibit
                 your ability to drive safely
               </p>
@@ -90,8 +90,7 @@ export default function ImpairedDrivingPage() {
             <p className="text-xl leading-relaxed text-slate-700">
               Impairment is not limited to alcohol. Drugs,
               including illegal substances, like marijuana,
-              prescription medications, and some
-              over-the-counter products, can also affect
+              prescription medications, and some over-the-counter products, can also affect
               judgment, coordination, reaction time, and
               decision making. When drivers are impaired,
               the risk of a serious or fatal crash increases for
@@ -363,9 +362,7 @@ export default function ImpairedDrivingPage() {
                   <li className="flex items-start gap-4">
                     <span className="mt-2 h-2 w-2 shrink-0 rounded-full bg-[#1c3e6f] text-black"></span>
                     <span>
-                      Alcohol, as well as, drugs, including illegal substances,
-                      marijuana, prescription medications, and over-the-counter
-                      products can cause impairment.
+                      Alcohol and drugs, which include illegal substances, marijuana, prescription medications, and some over-the-counter products, can cause impairment.
                     </span>
                   </li>
                   <li className="flex items-start gap-4">
@@ -661,7 +658,7 @@ export default function ImpairedDrivingPage() {
               </Link>
 
               <Link
-                href="https://flimpaireddriving.com/index.html"
+                href="https://www.nhtsa.gov/campaign/drive-sober-or-get-pulled-over"
                 target="_blank"
                 className="underline decoration-1 underline-offset-4 hover:text-blue-200"
               >

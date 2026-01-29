@@ -72,7 +72,7 @@ export default function ImpairedDrivingPage() {
                 safety issues on Florida’s roadways. Driving under the influence
                 of alcoholic beverages, controlled substances, marijuana, or some
                 over-the-counter medications can cause impairment and inhibit
-                your ability to drive safely
+                your ability to drive safely.
               </p>
             </FadeIn>
           </div>

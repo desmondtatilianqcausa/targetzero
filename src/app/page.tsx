@@ -430,8 +430,8 @@ export default function ImpairedDrivingPage() {
                 human error. Clearly posted speed limits, improved signage,
                 enhanced lighting, and roadway features such as reduced speed
                 zones all help drivers make safer decisions. These tactics are
-                important in areas with changing trac patterns, varied weather
-                conditions, or limited visibility
+                important in areas with changing traffic patterns, varied weather
+                conditions, or limited visibility.
               </p>
               <p className="text-center text-xl leading-relaxed text-slate-700">
                 Additional engineering solutions, such as wrong way driving
@@ -454,7 +454,7 @@ export default function ImpairedDrivingPage() {
                 Law enforcement agencies across Florida use high visibility
                 enforcement strategies to deter impaired driving and remove
                 dangerous drivers from the road. These efforts include increased
-                patrols, sobriety checks where permitted and coordinated
+                patrols, sobriety checks where permitted, and coordinated
                 enforcement waves.
               </p>
               <p className="text-center text-xl leading-relaxed text-slate-700 pl-5 md:pl-0">

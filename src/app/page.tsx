@@ -471,7 +471,7 @@ export default function ImpairedDrivingPage() {
           {/* Red Call to Action */}
           <div className="container mx-auto mb-8 px-6 text-center">
             <h3 className="scale-y-150 transform text-2xl tracking-wide scale-x-120 font-black text-[#d32f2f] uppercase md:text-3xl">
-              IF YOU SEE A DANGEROUS DRIVER, CALL *FHP (*347) OR 911 IN ANEMERGENCY.
+              IF YOU SEE A DANGEROUS DRIVER, CALL *FHP (*347) OR 911 IN AN EMERGENCY.
             </h3>
           </div>
 

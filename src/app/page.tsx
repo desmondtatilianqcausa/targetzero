@@ -586,9 +586,9 @@ export default function ImpairedDrivingPage() {
               </h3>
               <ul className="ml-3 list-disc space-y-2 pl-5 text-xl text-slate-700">
                 <li>Alcohol</li>
+                <li>Illegal drugs, including marijuana</li>
                 <li>Prescription drugs</li>
                 <li>Over-the-counter medications</li>
-                <li>Illegal drugs, including marijuana</li>
               </ul>
             </div>
 
